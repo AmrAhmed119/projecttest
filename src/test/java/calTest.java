@@ -12,4 +12,8 @@ class calTest {
     void test2() {
         assertEquals(10,cal.add(5,5));
     }
+    @Test
+    void test3() {
+        assertEquals(11,cal.add(6,5));
+    }
 }
